@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    border-bottom: 2px solid black;
+  }
+  
+  h1 {
+    margin-left: 20px;
+  }
+  
+  /* gaps btwn button  */
+  .flex-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .flex-item a {
+    color: black;
+    text-decoration: none;
+    padding-bottom: 1px;
+    transition: color 0.3s, border-radius 0.3s; 
+  }
+  
+  .flex-item a:hover {
+    border: none;
+    color: blue;
+    border-radius: 5px;
+  }
+
+  
+  body {
+    margin: 0;
+  }
+  
+  .ni {
+    margin-top: -620px;
+    margin-left: 300px;
+    margin-right: 30px;
+  }
+  
